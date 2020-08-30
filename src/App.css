@@ -1,7 +1,8 @@
 .card {
+  width: 8%;
   display: inline-block;
-  padding: 15px 25px;
-  font-size: 16px;
+  padding: 40px 60px;
+  font-size: 30px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -12,18 +13,40 @@
   border-radius: 15px;
   box-shadow: 0 9px #999;
   margin: 4px 2px;
+  float: inline-start;
  }
 
  .activeCard {
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 15px 25px;
+  padding: 40px 60px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 30px;
   margin: 4px 2px;
   cursor: pointer;
  }
+ .Header{
+  background-color: rgb(250, 10, 10);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+ }
+ .body1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 200%;
+  text-align: center;
+  float: left;
+  padding: 40px 60px;
+  width: 45%;
+  
  
+ }
+ 
+ .border {
+  min-height: 0.5vh;
+  background: #A9A9A9;
+ }
